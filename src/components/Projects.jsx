@@ -7,6 +7,7 @@ import TheShoeCompany from "../assets/projects/theshoecompany.png";
 import TicTacToe from "../assets/projects/tictactoe.png";
 import RockPaperScissors from "../assets/projects/rockpaperscissors.png";
 import ReactClock from "../assets/projects/reactclock.png";
+import BiteBuddy from "../assets/projects/bitebuddy.png";
 
 const Projects = () => {
   const projects = [
@@ -47,27 +48,34 @@ const Projects = () => {
     },
     {
       id: 6,
+      src: BiteBuddy,
+      live: "https://chef-bite-buddy.netlify.app",
+      code: "https://github.com/subhadip31/Bite-Buddy",
+      title: "Chef Bite Buddy App",
+    },
+    {
+      id: 7,
       src: TripGo,
       live: "https://tripgo-subhadip.netlify.app",
       code: "https://github.com/subhadip31/TripGo-Website",
       title: "Trip Go",
     },
     {
-      id: 7,
+      id: 8,
       src: RockPaperScissors,
       live: "https://rockpaperscissors-subhadip.netlify.app",
       code: "https://github.com/subhadip31/Rock-Paper-Scissors",
       title: "Rock Paper Scissors",
     },
     {
-      id: 8,
+      id: 9,
       src: TicTacToe,
       live: "https://tictactoe-subhadip.netlify.app",
       code: "https://github.com/subhadip31/Tic-Tac-Toe",
       title: "Tic Tac Toe",
     },
     {
-      id: 9,
+      id: 10,
       src: ReactClock,
       live: "https://react-clock-subhadip.netlify.app",
       code: "https://github.com/subhadip31/React-Clock",

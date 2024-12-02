@@ -3,7 +3,7 @@ import tailwind from "../assets/tailwind.png";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import github from "../assets/github.png";
-import scss from "../assets/saas.png";
+import sass from "../assets/sass.png";
 import js from "../assets/javascript.png";
 import nodeJSImage from '../assets/node.png'
 
@@ -15,7 +15,7 @@ const Skills = () => {
     { id: 4, src: reactImage, title: "React", style: "shadow-cyan-500" },
     { id: 5, src: tailwind, title: "Tailwind", style: "shadow-cyan-300" },
     { id: 6, src: github, title: "Github", style: "shadow-gray-400" },
-    { id: 7, src: scss, title: "Scss", style: "shadow-pink-500" },
+    { id: 7, src: sass, title: "Sass", style: "shadow-pink-500" },
     { id: 8, src: nodeJSImage, title: "Node JS", style: "shadow-[#8CC84B]" },
   ];
   return (
@@ -25,7 +25,7 @@ const Skills = () => {
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+          <p className="text-4xl font-bold border-b-4 border-gray-500 inline">
             Skills
           </p>
           <p className="py-6">These are the technologies I've worked with</p>
